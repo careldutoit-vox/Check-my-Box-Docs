@@ -8,7 +8,7 @@ Installing Packages:
 	install-package Ninject
 	install-package EFCTP4
 	install-package SQLCE.EntityFramework
-	install-package MvcScaffold
+	install-package MvcScaffolding
 	install-package MvcDiagnostics
 		//How to http://haacked.com/archive/2010/12/05/asp-net-mvc-diagnostics-using-nuget.aspx
 Auto update:
@@ -18,16 +18,7 @@ Running Scafolding:
 	Scaffold-Controller -m User -c UserContext
 	
 	Form Catalog
-		Scaffold-Controller -m Item -c MainCatalog
-		Scaffold-Controller -m Role -c MainCatalog
-		Scaffold-Controller -m User -c MainCatalog
-		Scaffold-Controller -m ItemList -c MainCatalog
-		Scaffold-Controller -m UserItem -c MainCatalog
-		Scaffold-Controller -m UserItemList -c MainCatalog
-		Scaffold-Controller -m UserRole -c MainCatalog
-		
-		Scaffold-Controller -m AccomidationModel -c MainDBCatalog
-		Scaffold-Controller -m AccomidationDetailModel -c MainDBCatalog
+		Scaffold Controller UserArea -Area DBManagement
 		
 Additional Installs:
 	/nui tooltips default

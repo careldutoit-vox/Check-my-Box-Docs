@@ -19,6 +19,7 @@ Running Scafolding:
 	
 	Form Catalog
 		Scaffold Controller UserArea -Area DBManagement
+		Scaffold Controller User -Area Services -ModelType NoStressWedding.Areas.DBManagement.Models.User
 		
 Additional Installs:
 	/nui tooltips default

@@ -31,7 +31,8 @@ NU-Get Site and username and password:
 Updates:
 	List-Package –Updates
 	
-
+Scaffold Controller Team -Force
+Scaffold Controller Player
 	
 	
 MVC Install:
@@ -41,5 +42,15 @@ ADmin Account
 admin
 123$%^
 
+------------------------------------------------------------------Uninstall and install MVC scafolding
+Uninstall-Package MvcScaffolding
+Uninstall-Package T4Scaffolding
+Uninstall-Package EFCodeFirst
+install-Package MvcScaffolding
+install-Package MvcScaffolding
+install-Package MvcScaffolding
+Carel Du Toit says (10:06 AM)
+run this in your project then you will get all the new attributes like ForeignKey ext.
+run the install for the MVC scafolding 3 times otherwise it won't install everything
 
 http://go.microsoft.com/fwlink/?LinkID=206669
